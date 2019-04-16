@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PrisKompis</string>
+    <string name="app_name">Doughnut Chart Example</string>
+    <string name="pie_chart_title">Calories Burned vs. Calories Consumed</string>
+    <string name="inside_title">Input the \n numbers below!</string>
+    <string name="burn">Burn.</string>
+    <string name="cons">Cons.</string>
+    <string name="add">Add</string>
 </resources>

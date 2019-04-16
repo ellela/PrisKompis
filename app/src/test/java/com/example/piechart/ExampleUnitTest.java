@@ -1,4 +1,4 @@
-package com.example.priskompis;
+package com.example.piechart;
 
 import org.junit.Test;
 
