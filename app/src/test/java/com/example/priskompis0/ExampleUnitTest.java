@@ -1,4 +1,4 @@
-package com.example.priskompis;
+package com.example.priskompis0;
 
 import org.junit.Test;
 

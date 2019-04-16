@@ -1,13 +1,13 @@
-package com.example.priskompis;
+package com.example.priskompis0;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Checkout extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkout);
+        setContentView(R.layout.activity_main);
     }
 }

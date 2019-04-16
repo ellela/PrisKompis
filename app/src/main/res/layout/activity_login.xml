@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00c3ff"
+    android:orientation="vertical"
+    tools:background="@drawable/ic_launcher_background">
+    <!--Title-->
+    <include layout="@layout/main_title_bar"></include>
+    <!--show the logo, please add id iv_head -->
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="#00c3ff" />
+    <!--Enter text-->
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#000000"
+        android:drawableLeft="#070"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="enter account"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp" />
+    <!--Enter in-->
+    <EditText
+        android:id="@+id/et_psw"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#5b39c6"
+        android:drawableLeft="#db5a6b"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp" />
+    <!--Botton-->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:background="#0009ff"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <!--Show tv register , find_psw -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="SignIn"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+        <!--layout_weight="1" layout_width="0dp"show same persentage-->
+        <TextView
+            android:id="@+id/tv_find_psw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Forget password?"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

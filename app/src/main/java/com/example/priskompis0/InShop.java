@@ -1,13 +1,13 @@
-package com.example.priskompis;
+package com.example.priskompis0;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ProductSelection extends AppCompatActivity {
+public class InShop extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product_selection);
+        setContentView(R.layout.activity_in_shop);
     }
 }
